@@ -1,0 +1,29 @@
+{
+  "name": "stream-if-env",
+  "version": "1.0.0",
+  "description": "Create conditional object streams based on NODE_ENV",
+  "keywords": [
+    "gulp",
+    "streams"
+  ],
+  "homepage": "https://github.com/zertosh/stream-if-env",
+  "licence": "MIT",
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "main": "stream-if-env.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zertosh/stream-if-env.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "through2": "^0.6.2"
+  },
+  "devDependencies": {
+    "tape": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
